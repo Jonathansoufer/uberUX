@@ -21,7 +21,7 @@ import {
   LocationTimeTextSmall
 } from "./styles";
 
-Geocoder.init("AIzaSyB1O8amubeMkw_7ok2jUhtVj9IkME9K8sc");
+Geocoder.init("PUT YOUR OWN APIKEY HERE");
 
 export default class Map extends Component {
   state = {
@@ -47,8 +47,8 @@ export default class Map extends Component {
             longitudeDelta: 0.0134
           }
         });
-      }, //sucesso
-      () => {}, //erro
+      },
+      () => {},
       {
         timeout: 2000,
         enableHighAccuracy: true,
