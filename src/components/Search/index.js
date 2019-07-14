@@ -15,7 +15,7 @@ export default class Search extends Component {
         placeholderTextColor="#333"
         onPress={onLocationSelected}
         query={{
-          key: YOUR GOOGLE API HERE",
+          key: "AIzaSyB1O8amubeMkw_7ok2jUhtVj9IkME9K8sc",
           language: "us",
         }}
         textInputProps={{

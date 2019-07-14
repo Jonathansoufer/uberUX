@@ -7,7 +7,7 @@ export const LocationBox = styled.View`
   shadow-offset: 0 0;
   shadow-opacity: 0.1;
   elevation: 1;
-  border: 1px solict #ddd;
+  border: 1px solid #ddd;
   border-radius: 3px;
   flex-direction: row;
 
